@@ -21,7 +21,7 @@ const StepContext = () => {
     // check localStorage for previous state
     useEffect(() => {
         let currenStep = parseInt(localStorage.getItem('current-step') || '1');
-        let usedata = JSON.parse(localStorage.getItem('user-data') || {});
+        let usedata = JSON.parse(localStorage.getItem('user-data') || '{}');
         console.log('current step', currenStep);
         console.log('user data', usedata);
         setCurrentStep(currenStep);
