@@ -9,6 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 origins = [
     "http://localhost",
     "http://localhost:3000",
+    "https://loan-app.kayodeoke.com"
 ]
 
 app = FastAPI()
