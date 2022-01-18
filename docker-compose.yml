@@ -19,6 +19,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - './frontend:/app'
+      - /frontend/node_modules
     environment:
       - BACKEND_URL=http://loan_app_backend/api/v1
     ports:
