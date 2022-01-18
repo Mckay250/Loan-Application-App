@@ -21,7 +21,7 @@ services:
       - './frontend:/app'
       - /frontend/node_modules
     environment:
-      - BACKEND_URL=http://loan_app_backend/api/v1
+      - BACKEND_URL=https://loan-api.kayodeoke/api/v1
     ports:
       - 3000:3000
     depends_on:

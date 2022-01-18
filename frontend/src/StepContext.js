@@ -5,7 +5,7 @@ export const loanAppContext = React.createContext();
 
 const StepContext = () => {
 
-    const API_URL = 'http://loan-api.kayodeoke4/api/v1'
+    const API_URL = 'http://localhost:8000/api/v1'
     
     const endOfFlowMessages = {
         success: "Thank you, we will reach out to you shortly.",
