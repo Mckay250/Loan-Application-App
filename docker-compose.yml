@@ -22,6 +22,6 @@ services:
     environment:
       - BACKEND_URL=http://loan_app_backend/api/v1
     ports:
-      - 3001:3000
+      - 3000:3000
     depends_on:
       - loan_app_backend
